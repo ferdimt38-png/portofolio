@@ -219,36 +219,41 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section alt">
-    <div class="container contact-wrap">
-      <div class="contact-text reveal">
-        <h2>Siap diskusi?</h2>
-        <p>Kirim pesan untuk kolaborasi, konsultasi funnel, atau minta deck studi kasus lengkap.</p>
-        <ul class="contact-points">
-  <li><strong>Email:</strong> Ferdi.mt38@gmail.com</li>
-  <li><strong>WhatsApp:</strong> 082360228488</li>
-  <li><strong>LinkedIn:</strong> linkedin.com/in/username-kamu</li>
-</ul>
-
-<a class="btn outline" href="https://wa.me/6282360228488?text=Halo%20Ferdian,%20saya%20tertarik%20diskusi%20tentang%20sales%20portfolio%20Anda." target="_blank" rel="noopener">
-  Chat via WhatsApp
-</a>
-
-      </div>
-      <form class="contact-form" action="https://formspree.io/f/mjknennr" method="POST">
-  <label>Nama
-    <input type="text" name="name" required>
-  </label>
-  <label>Email
-    <input type="email" name="email" required>
-  </label>
-  <label>Pesan
-    <textarea name="message" rows="5" required></textarea>
-  </label>
-  <button class="btn primary" type="submit">Kirim</button>
-</form>
+<section id="contact" class="section alt">
+  <div class="container contact-wrap">
+    <div class="contact-text reveal">
+      <h2>Hubungi Saya</h2>
+      <p>Saya siap membantu meningkatkan penjualan Anda. Silakan isi form atau hubungi langsung melalui email/WhatsApp.</p>
+      <ul class="contact-points">
+        <li>✉️ <strong>Email:</strong> <a href="mailto:Ferdi.mt38@gmail.com">Ferdi.mt38@gmail.com</a></li>
+        <li>💬 <strong>WhatsApp:</strong> <a href="https://wa.me/6282360228488" target="_blank">082360228488</a></li>
+        <li>🔗 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/m.ferdian luthfi" target="_blank">linkedin.com/in/m.ferdian luthfi</a></li>
+      </ul>
+      <a class="btn outline" href="https://wa.me/6282360228488?text=Halo%20Ferdian,%20saya%20tertarik%20diskusi%20tentang%20sales%20portfolio%20Anda." target="_blank" rel="noopener">
+        Chat via WhatsApp
+      </a>
     </div>
-  </section>
+
+    <!-- Formspree Integration -->
+    <form class="contact-form reveal" action="https://formspree.io/f/mjknennr" method="POST">
+      <label>
+        Nama
+        <input type="text" name="name" placeholder="Nama lengkap" required />
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" placeholder="Alamat email" required />
+      </label>
+      <label>
+        Pesan
+        <textarea name="message" rows="5" placeholder="Ceritakan kebutuhan kamu…" required></textarea>
+      </label>
+      <!-- Honeypot anti-spam -->
+      <input type="text" name="company" style="display:none">
+      <button class="btn primary" type="submit">Kirim</button>
+    </form>
+  </div>
+</section>
 
   <!-- Footer -->
   <footer class="site-footer">
@@ -261,6 +266,7 @@
 </body>
 
 </html>
+
 
 
 
