@@ -235,21 +235,11 @@
 </a>
 
       </div>
-      <form class="contact-form reveal" action="#" method="post" onsubmit="return false;">
-        <label>
-          Nama
-          <input type="text" name="name" placeholder="Nama lengkap" required />
-        </label>
-        <label>
-          Email
-          <input type="email" name="email" placeholder="Alamat email" required />
-        </label>
-        <label>
-          Pesan
-          <textarea name="message" rows="5" placeholder="Ceritakan kebutuhan kamu…" required></textarea>
-        </label>
-        <button class="btn primary" type="submit">Kirim</button>
-        <p class="form-note">Form ini demo. Integrasikan ke email/Google Sheets/CRM sesuai kebutuhan.</p>
+      <form class="contact-form" action="https://formspree.io/f/FORM_ID" method="POST">
+  <label>Nama <input type="text" name="name" required></label>
+  <label>Email <input type="email" name="email" required></label>
+  <label>Pesan <textarea name="message" rows="5" required></textarea></label>
+  <button class="btn primary" type="submit">Kirim</button>
       </form>
     </div>
   </section>
@@ -258,7 +248,6 @@
   <footer class="site-footer">
     <div class="container footer-wrap">
       <span>© 2025 Ferdian</span>
-      <span>Built with clean HTML, CSS & JS</span>
     </div>
   </footer>
 
@@ -266,5 +255,6 @@
 </body>
 
 </html>
+
 
 
