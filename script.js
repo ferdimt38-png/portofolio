@@ -26,6 +26,7 @@ if (form) {
     const name = form.name.value.trim();
     const email = form.email.value.trim();
     const message = form.message.value.trim();
-    alert(`Terima kasih, ${name}! Pesan kamu:\n${message}\n\n(Demo: Integrasi email/CRM belum diaktifkan)`);
+    alert(`Terima kasih, ${name}! Pesan kamu:\n${message}\n\n(i will contct you ASAP)`);
   });
+
 }
